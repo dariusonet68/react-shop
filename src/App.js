@@ -16,7 +16,6 @@ function App() {
         <Route path="/details/:id" element={<DetailsPage />} />
         <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="/cart" element={<CartPage />} />
-        <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );
